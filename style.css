@@ -1,0 +1,86 @@
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffdb4d;
+}
+
+button {
+  font-family: 'Dosis', sans-serif;
+  font-size: 50%;
+}
+
+img {
+  border-style: solid;
+  border-color:
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.wise {
+  font-family: 'Dosis', sans-serif;
+}
+
+.wise-word-button {
+  border-radius: 2px;
+  border: 10px;
+  border-width: 1px;
+  margin: 5px;
+  outline: 1px;
+  border-style: ridge;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.clear-wise-word-button {
+  background-color: transparent;
+  font-size: 100%;
+  color: #737373;
+  border-style: solid;
+  border-color:#737373;
+  border-width: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+  .wise-word-button {
+    width: 45%;
+  }
+
+  .wise-word {
+    font-size: 24px;
+  }
+
+  .new-wise {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .wise-word-button {
+    width: 65%;
+  }
+
+  .wise-word {
+    font-size: 24px;
+  }
+
+  .new-wise {
+    width: 80%;
+  }
+
+}
